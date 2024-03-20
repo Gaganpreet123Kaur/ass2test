@@ -110,6 +110,8 @@
     <input type="submit" value="Submit"> <input type="submit" value="Reapply">
   </form><p id="message"></p><hr>
 
+ <?php
+
   <a href="create.php" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Add New Employee</a>
   // Attempt select query execution
                     $sql = "SELECT * FROM employees";
